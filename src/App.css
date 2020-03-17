@@ -1,38 +1,81 @@
-.App {
+/* @import url('https://fonts.googleapis.com/css?family=&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+footer {
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 50px;
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  margin-top: 30px;
+}
+
+#navbar {
+ font-family: 'Amatic SC';
+ border-bottom: lightskyblue solid;
+ border-left: lightskyblue solid;
+ border-right: lightskyblue solid;
+ background-color: rgba(255, 255, 255, 100) 
+}
+
+.home,
+.contactinfo {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 10px 10px 10px 10px;
+}
+
+#tm1,
+#tm2,
+#tm3 {
+  border: solid lightsalmon;
+  height: auto;
+  width: auto
+}
+
+#woodwork {
+  border: solid lightsalmon;
+}
+
+#jumbotron {
+  font-family: 'Amatic SC', 'Times New Roman', Times, serif;
+  background: rgba(255, 255, 255, 0.25);
+  margin-top: 6em;
+  margin-bottom: 1em;
+}
+
+#jumbotron h1 {
+  font-size: 7
+  0px;
+}
+
+#profile {
+  width: 100%;
+}
+
+.skills {
+  display: inline;
+}
+
+.projects {
+  margin: 50px 300px 50px 300px;
+}
+
+.carousel-jumbo {
+  margin: 0 auto;
+  max-width: 60%; 
+  display: inline;
+}
+
+.carousel {
+  margin: 0 auto;
+  max-width: 30%; 
+}
+
+.contactinfo {
+  margin: 0 auto;
+  max-width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .btn {
+  font-size: 150%;
+} */
