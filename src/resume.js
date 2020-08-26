@@ -4,22 +4,22 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import './App.css'
 
 
 const resume = () => {
   return <div className="container-fluid">
 
-    <Accordion >
+    <Accordion>
 
-      <Card>
-        <Card.Header>
+      <Card  >
+        <Card.Header className="cards" style={{ backgroundColor: 'gray' }} >
           <Accordion.Toggle /* as={Button} */ eventKey="0">
             PROJECTS
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
-          <Card.Body>
+          <Card.Body style={{ backgroundColor: 'light gray' }}>
             <h2>PROJECTS</h2>
             < br />
 
@@ -48,13 +48,13 @@ const resume = () => {
       </Card>
 
       <Card>
-        <Card.Header>
+        <Card.Header style={{ backgroundColor: 'gray' }}>
           <Accordion.Toggle /* as={Button} */ variant="link" eventKey="1">
             TECHNICAL SKILLS
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
-          <Card.Body>
+          <Card.Body style={{ backgroundColor: 'light gray' }}>
             {/* <Container> */}
             <h2>TECHNICAL SKILLS</h2>
             < br />
@@ -75,13 +75,13 @@ const resume = () => {
       </Card>
 
       <Card>
-        <Card.Header>
+        <Card.Header style={{ backgroundColor: 'gray' }}>
           <Accordion.Toggle /* as={Button} */ variant="link" eventKey="2">
             EXPERIENCE
           </Accordion.Toggle>
-        </Card.Header>
+        </Card.Header >
         <Accordion.Collapse eventKey="2">
-          <Card.Body>
+          <Card.Body style={{ backgroundColor: 'light gray' }}>
             <h2>EXPERIENCE</h2>
             < br />
             <div>
@@ -135,13 +135,13 @@ const resume = () => {
 
 
       <Card>
-        <Card.Header>
+        <Card.Header style={{ backgroundColor: 'gray' }}>
           <Accordion.Toggle /* as={Button} */ variant="link" eventKey="3">
             EDUCATION
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
-          <Card.Body>
+          <Card.Body style={{ backgroundColor: 'light gray' }}>
             <h2>EDUCATION</h2>
             < br />
             <Row>

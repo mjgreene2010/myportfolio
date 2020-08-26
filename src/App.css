@@ -2,24 +2,30 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 footer {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(105, 104, 104, 0);
   height: 50px;
   text-align: center;
   padding: 15px 10px 10px 10px;
   margin-top: 30px;
 }
 
+.card {
+  margin: 5px;
+  background-color: rgba(105, 104, 104, 0.5);
+}
+
 #navbar {
- font-family: 'Amatic SC';
- border-bottom: lightskyblue solid;
- border-left: lightskyblue solid;
- border-right: lightskyblue solid;
- background-color: rgba(255, 255, 255, 100) 
+ font-family: 'Cabin Regular', 'Times New Roman', Times, serif;
+ border-bottom: darkgray solid;
+ border-left: darkgray solid;
+ border-right: darkgray solid;
+ background-color: rgba(105, 104, 104) 
 }
 
 .home,
 .contactinfo {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(105, 104, 104, 0.5);
+  color: white;
   padding: 10px 10px 10px 10px;
 }
 
@@ -36,8 +42,8 @@ footer {
 }
 
 #jumbotron {
-  font-family: 'Amatic SC', 'Times New Roman', Times, serif;
-  background: rgba(255, 255, 255, 0.25);
+  font-family: 'Cabin Regular', 'Times New Roman', Times, serif;
+  background: rgba(105, 104, 104, 0);
   margin-top: 6em;
   margin-bottom: 1em;
 }
@@ -76,6 +82,8 @@ footer {
   text-align: center;
 }
 
-/* .btn {
-  font-size: 150%;
-} */
+.btn {
+   /* outline: bottom !important; */
+   border-bottom: 1px solid;
+  box-shadow: none !important;
+}

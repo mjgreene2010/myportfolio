@@ -81,7 +81,7 @@ const hobbies = () => {
           <Image className="d-block w-100 round" src={desk2} fluid alt="folding desk 2" id="woodwork" thumbnail />
           <Carousel.Caption>
             <h2>Wood Work</h2>
-            <p>reated a folding desk in the closet of my man cave</p>
+            <p>Created a folding desk in the closet of my man cave</p>
           </Carousel.Caption>
         </Carousel.Item>
 
